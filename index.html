@@ -1,0 +1,49 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A cool thing made with Glitch">
+
+    <title>Teams Work</title>
+
+    <link id="favicon" rel="icon" href="https://src.neyki.ml/teamswork/favicon.ico" type="image/x-icon">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="https://src.neyki.ml/teamswork/logo.png">
+    </header>
+
+    <main>
+      <img class="example" src="https://src.neyki.ml/teamswork/example.png">
+
+      <p>Vous voulez votre propre pad ?</p>
+
+      <form>
+        <label>
+          Nouveau Pad
+          <input name="pad" type="text" maxlength="100" required placeholder="Nom du pad">
+          La durée des pads sont infinis
+        </label>
+        <button type="submit" id="createpad">Créer le pad</button>
+      </form>
+
+    </main>
+
+    
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div id="footer">
+      <img src="https://src.neyki.ml/teamswork/footer.png">
+    </div>
+  </body>
+</html>
